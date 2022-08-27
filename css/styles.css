@@ -1,0 +1,133 @@
+#title {
+  background-color: #ff4c68;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+h2 {
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+/* navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.rotated {
+  width: 60%;
+  transform: rotate(20deg); /* Equal to rotateZ(20deg) */
+  margin-top: 20px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+/* Features seaction*/
+#features {
+  padding: 7% 10%;
+}
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: aliceblue;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press seaction */
+
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 20px;
+}
+
+.press-lgo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-colum {
+  padding: 3% 2%;
+}
+/* this media can control certen stuff one of it are the width for example down here we change the wedith thats 1000px or bellow to cenrten condtion on the classes */
+@media (max-width: 1000px) {
+  .rotated {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* footer */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 40px;
+}
+.cta-text {
+  font-family: Montserrat;
+  font-size: 3rem;
+  color: aliceblue;
+  font-weight: bold;
+}
+/* footer */
+#footer {
+  text-align: center;
+  padding-top: 5px;
+}
+.icons-default {
+  color: black;
+}
